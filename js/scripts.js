@@ -13,6 +13,6 @@ console.log(textDinosaur);
 
 console.log(textDinosaur.length);
 
-var partOfText = textDinosaur.slice(0,72);
+var partOfText = textDinosaur.slice(0, textDinosaur.length / 2);
 
 console.log(partOfText);
